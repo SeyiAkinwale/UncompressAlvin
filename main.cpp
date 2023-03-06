@@ -1,5 +1,13 @@
+using namespace std;
 #include <iostream>
+#include <string>
+
+string uncompress(string s)
+{
+  string result = "";
+  return result;
+}
 
 int main() {
-  std::cout << "Hello World!\n";
+  uncompress ( "1k6j");
 }
