@@ -23,5 +23,5 @@ string uncompress(string s)
 }
 
 int main() {
-  uncompress ( "1k6j");
+  uncompress ( "1k6j7f");
 }
