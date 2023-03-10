@@ -9,7 +9,13 @@ string uncompress(string s)
   int i = 0, j = 0;
   while (j<s.length())
     {
-
+      if (numbers.find(s[j]) != string::npos)
+      {
+        j++;
+      }else{
+        int num = stoi(s.substr(i,j));
+        result += string(num, s[j]);
+      }
       j++;
       i = j;
     }
